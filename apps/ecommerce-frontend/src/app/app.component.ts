@@ -9,7 +9,7 @@ import { fontAwesomeIcons } from './shared/font-awsome-icons';
 
 @Component({
   imports: [RouterModule, FontAwesomeModule],
-  selector: 'app-root',
+  selector: 'ecom-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
