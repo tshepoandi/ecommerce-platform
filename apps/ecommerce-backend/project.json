@@ -2,5 +2,15 @@
   "name": "ecommerce-backend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/ecommerce-backend/src",
-  "tags": []
+  "tags": [],
+  "targets": {
+    "server": {
+      "executor": "@nxrocks/nx-spring-boot:run",
+      "options": {
+        "root": "apps/ecommerce-backend",
+        "projectName": "ecommerce-backend",
+        "args": ["-Dspring-boot.run.profiles=local"]
+      }
+    }
+  }
 }
