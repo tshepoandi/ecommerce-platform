@@ -6,9 +6,10 @@ import {
   FontAwesomeModule,
 } from '@fortawesome/angular-fontawesome';
 import { fontAwesomeIcons } from './shared/font-awsome-icons';
+import { NavbarComponent } from './layout/navbar/navbar.component';
 
 @Component({
-  imports: [RouterModule, FontAwesomeModule],
+  imports: [RouterModule, FontAwesomeModule, NavbarComponent],
   selector: 'ecom-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
